@@ -31,33 +31,34 @@
 /*desde AQUI VA EL index*/
 
 .index{
-    background-color: white;
+    background-color: #F2F2F0;
 
 }
 .encabezado{
-    color: white;
-    background-color: black;
+    color: #F2F2F0;
+    background-color: #D9CDBF;
     text-align: center;
     font-style: italic;
     font-family:'Darker Grotesque', sans-serif;
 }
 .encabezado__titulo{
-    color: black;
+    color: #403F3C;
     font-size: 80px;
     letter-spacing: 4px;
     font-family: 'Darker Grotesque', sans-serif;
     text-align: center;
 }
 .encabezado__titulo--subtitulo{
-    color: black;
+    color: #4C4E59;
     font-style: italic;
     text-align: center;
+    font-size: 20px;
     letter-spacing: 4px;
     font-family: 'Darker Grotesque', sans-serif;
     font-weight: bold;
 }
 .encabezado__titulo--subtitulo1{
-    color: black;
+    color: #BFA995;
     font-family: 'Darker Grotesque', sans-serif;
     text-align: center;
     font-style: italic;
@@ -80,7 +81,7 @@ ul {
 }
 
 .navegacion__titulos li a {
-    color:black;
+    color:#BFA995;
     text-decoration:none;
     padding: 10px;
     display:block; 
@@ -101,11 +102,10 @@ ul {
 }
 
 .carousel-item{
-    width: 80%;
-    height: 30%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
+    width: 100%;
+    height: 20%;
+    margin-top: 2%;
+
 }
 
 
@@ -114,21 +114,31 @@ ul {
 
 /*desde AQUI VA EL MENU DE conocenos*/
 
+.backgroundConocenos{
+    background-size: 100%;
+    background-position: center;
+}
+
+.container-fluid{
+    background-color: rgba(241, 241, 241, 0.5);
+    width: fit-content;
+}
 .tituloConocenos{
-    color: white;
+    color: #403F3C;
     letter-spacing: 5px;
     line-height: 50px;
     font-size: 40px;
     text-align: center;
-    font-family: 'Darker Grotesque', sans-serif;
     width: fit-content;
     margin-left: 38%;
     padding: 1%;
     font-style: italic;
+    font-style: bold;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
 .tituloConocenos__texto{
-    color: white;
+    color: #403F3C;
     letter-spacing: 5px;
     font-size: 20px;
     font-family: 'Darker Grotesque', sans-serif;
@@ -142,7 +152,7 @@ ul {
 }
 
 .tituloConocenos__texto--pregunta{
-    color: white;
+    color: #403F3C;
     letter-spacing: 5px;
     font-size: 30px;
     font-family: 'Darker Grotesque', sans-serif;
@@ -155,7 +165,7 @@ ul {
 }
 
 .tituloConocenos__texto--respuesta{
-    color:white;
+    color: #403F3C;
     letter-spacing: 5px;
     font-size: 20px;    
     font-family: 'Darker Grotesque', sans-serif;
@@ -168,7 +178,7 @@ ul {
 }
 
 .tituloConocenos__texto--texto{
-    color: white;
+    color: #403F3C;
     letter-spacing: 5px;
     font-size: 20px;
     font-family: 'Darker Grotesque', sans-serif;
@@ -181,7 +191,7 @@ ul {
 }
 
 .tituloConocenos__texto--subtexto{
-    color: white;
+    color: #403F3C;
     letter-spacing: 5px;
     font-size: 20px;
     font-family: 'Darker Grotesque', sans-serif;
@@ -195,12 +205,11 @@ ul {
 
 
 .tituloConocenos__pie{
-    color: black;
+    color: #403F3C;
     font-size: 80px;
     letter-spacing: 4px;
     font-family: 'Darker Grotesque', sans-serif;
     text-align: center;
-    background-color: white;
     margin-top: 10%;
 }
 /*HASTA AQUI VA EL MENU DE conocenos*/
@@ -208,58 +217,28 @@ ul {
 
 /*desde AQUI VA EL MENU DE NAVEGACION*/
 
-.lista{
-    color: white;
-    font-family: 'Darker Grotesque', sans-serif;
-    list-style-position: inside;
-    width: fit-content;
-}
-
-
-
 p{
     color: white;
     font-family: 'Darker Grotesque', sans-serif;
-
 }
 
 .tabla{
-    color: black;
+    color: #4C4E59;
     font-family: 'Darker Grotesque', sans-serif;
-    background-color: white;
+    background-color: transparent;
     font-weight: bold;
 }
-
-.titulo1{
-    color: white;
-    font-family: 'Darker Grotesque', sans-serif;
-    width: fit-content;
-
+.tabla__columnas{
+    font-size: 20px;
+    font-weight: bold;
 }
+.tabla__filas{
+    font-style: italic;
+    text-align: center;
+}
+
 
 /*desde AQUI VA EL MENU DE enviosypagos*/
-
-.enviosypagos{
-    font-family: 'Darker Grotesque', sans-serif;
-}
-.enviosypagos__navigation{
-    display: grid;
-    list-style-type: none;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50px 50px 50px 50px;    
-    grid-row-gap: 5px;
-    grid-column-gap: 10px;
-    justify-content: space-between;
-    align-items: stretch;
-    font-size: 20px;
-
-}
-.enviosypagos__navigation--titulo{
-    width: fit-content;
-    grid-area: bloque__section;
-    align-content: left;
-
-}
 
 .bloque{
     display: grid;
@@ -275,7 +254,7 @@ p{
 }
 
 .bloque__section--titulo{
-    color: black;
+    color: #403F3C;
     font-family: 'Darker Grotesque', sans-serif;
     width: fit-content;
     list-style-type: none;
@@ -283,31 +262,13 @@ p{
 
 }
 .bloque__section--subtitulo{
-    color: black;
+    color: #403F3C;
     font-family: 'Darker Grotesque', sans-serif;
 
 }
-
-
 /*hasta AQUI VA EL MENU DE promosypagos*/
 
-
-.enviosypagos{
-    background-size: 100%;
-}
-
-.item{
-    color: white;
-    background-color: black;
-}
-
-.portadaDos{
-    background-size: 100%;
-}
-
-.negrita{
-    font-style: italic;
-}
+/*codigos comunes a todas las secciones*/ 
 
 .goBack{
     float: right;
@@ -319,48 +280,67 @@ p{
     width: 100%;
     height: 6vh;
 }
-.piedePagina__instagram, .piedePagina__facebook, .piedePagina__email{
-    width: 3%;
-    height: 5vh;
+.piedePagina{
+    margin-left: 90%;
 }
-
+.buscanosEn{
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #BFA995;
+    font-size: 20px;
+}
 .footer{
-    margin-top: 200px;
+    margin-top: 120px;
     text-align: center;
-    color: black;
-    background-color: white;
+    color: #F2F2F0;
+    background-color: #D9CDBF;
+}
+.footer__subfooter{
+    text-align: center;
+    color: #D9CDBF;
+    background-color: transparent;
 }
 
 /*desde AQUI VA EL MENU DE contacto*/
 
 .fondoContacto{
     background-size: 100%;
-
 }
-.contacto{
+.contacto__bloque{
     font-size: 20px;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: stretch;
-    align-content: center;
+    font-style: italic;
+    font-family: 'Bold Grotesque', sans-serif;
+    letter-spacing: 3px;
+    line-height: 18px;
+    padding: 1%;
+    text-align: center;
+    width: fit-content;
+    color: #403F3C;
 }
 .contacto__titulo{
-    font-family: 'Darker Grotesque', sans-serif;
-    font-size: 20px;
-    color: white;
+    font-family: 'Bold Grotesque', sans-serif;
+    font-size: 18px;
+    color: #403F3C;
 }
 .contacto__sentence{
-    color: white;
+    color: #403F3C;
+    font-family: 'Bold Grotesque', sans-serif;
+    font-size: 85%;
+}
+.enviar, .cancelar{
+    color: #403F3C;
+    background-color: transparent;
+    font-family: 'Bold Grotesque', sans-serif;
+    font-size: 18px;
 }
 /*hasta AQUI VA EL MENU DE contacto*/
 
 /*desde AQUI VA EL MENU DE productos*/
 
 .fondoProductos{
-    background-size: 100%;
+    background-color: #F2F2F0;
 }
 .productos{
-    color: black;
+    color: #4C4E59;
     background-color: transparent;
     font-size: 25px;
     font-family: 'Darker Grotesque', sans-serif;
@@ -373,13 +353,13 @@ p{
     justify-content: center;
     align-items: stretch;
     align-content: center;
+    margin-left: 8%;
 }
   
 .imagenProducto__foto{
-    width: 80%;
-    height: 40vh;
+    width: 100%;
+    height: 60vh;
 }
-
 .imagenProducto div p img:hover{
     transform: rotate(10deg); 
 
@@ -387,27 +367,21 @@ p{
 .imagenProducto__foto--cuello{
     list-style-type: none;
     font-family: 'Darker Grotesque', sans-serif;
-    color: black;
+    color: #403F3C;
     font-size: 20px;
-    background-color: white;
-    width: fit-content;
-
+    background-color: transparent;
+    padding: 1%;
+}
+.imagenProducto__foto--cuello1{
+    list-style-type: none;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #BFA995;
+    font-size: 20px;
 }
 /*hasta AQUI VA EL MENU DE productos*/
 
 
 
-.errorTitulo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: fit-content;
-    text-align: center;
-    margin-top: 25%;
-    margin-left: 40%;
-}
-.errorTitulo__subtitulo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    margin-left: 38%;
-}
+
 
 
