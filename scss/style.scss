@@ -358,7 +358,6 @@ p{
     justify-content: center;
     align-items: stretch;
     align-content: center;
-    margin-left: 8%;
 }
   
 .imagenProducto__foto{
@@ -366,11 +365,11 @@ p{
     height: 60vh;
 }
 .imagenProducto__fotoman{
-    width: 100%;
-    height: 70vh;
+    width: 110%;
+    height: 60vh;
 }
 .imagenProducto div p img:hover{
-    transform: rotate(10deg); 
+    transform: rotate(8deg); 
 
 }
 .imagenProducto__foto--cuello{
@@ -392,6 +391,21 @@ p{
     font-family: 'Darker Grotesque', sans-serif;
     color: #403F3C;
     font-size: 20px;
+}
+.encabezado__titulo2{
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #403F3C;
+    font-size: 100px;
+    letter-spacing: 4px;
+}
+.encabezado__titulo--subtitulo2{
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #403F3C;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 4px;
 }
 /*hasta AQUI VA EL MENU DE productos*/
 
