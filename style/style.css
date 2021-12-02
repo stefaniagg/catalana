@@ -30,7 +30,7 @@
 
 .encabezado__titulo {
   color: #403F3C;
-  font-size: 80px;
+  font-size: 100px;
   letter-spacing: 4px;
   font-family: 'Darker Grotesque', sans-serif;
   text-align: center; }
@@ -52,7 +52,7 @@
   font-size: 20px; }
 
 .navegacion {
-  margin-left: 30%;
+  margin-left: 31%;
   width: 70%;
   /*lE DOY EL TAMAÑO DE LA MITAD PARA QUE EL MARGIN SEA PAREJO DE AMBOS LADOS Y QUEDE CENTRADO*/
   font-family: 'Darker Grotesque', sans-serif;
@@ -239,7 +239,7 @@ p {
   height: 6vh; }
 
 .piedePagina {
-  margin-left: 90%; }
+  margin-left: 45%; }
 
 .buscanosEn {
   font-family: 'Darker Grotesque', sans-serif;
