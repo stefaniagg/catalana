@@ -114,12 +114,19 @@ ul {
 
 /*desde AQUI VA EL MENU DE conocenos*/
 
+.offcanvas{
+    background-color: rgba(241, 241, 241, 0.75);
+    color: #403F3C;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+}
+
 .backgroundConocenos{
     background-size: 100%;
     background-position: center;
 }
 
-.container-fluid{
+.container-fluid2{
     background-color: rgba(241, 241, 241, 0.5);
     width: fit-content;
 }
@@ -339,12 +346,6 @@ p{
 .fondoProductos{
     background-color: #F2F2F0;
 }
-.productos{
-    color: #4C4E59;
-    background-color: transparent;
-    font-size: 25px;
-    font-family: 'Darker Grotesque', sans-serif;
-}
 
 .imagenProducto{
     display: flex;
@@ -376,6 +377,12 @@ p{
     list-style-type: none;
     font-family: 'Darker Grotesque', sans-serif;
     color: #BFA995;
+    font-size: 20px;
+}
+.comprar{
+    list-style-type: none;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #403F3C;
     font-size: 20px;
 }
 /*hasta AQUI VA EL MENU DE productos*/
