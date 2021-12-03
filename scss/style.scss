@@ -1,8 +1,4 @@
 
-@import "../scss/imports/variables";
-
-
-
 /*escritorio*/
 @media only screen and (min-width: 768px) and (max-width: 1000px){
     body{
@@ -76,7 +72,7 @@ ul {
 }
 
 .navegacion__titulos > li {
-    float:left; /*POSICIONO LISTA A LA IZQUIERDA*/
+    float: left; /*POSICIONO LISTA A LA IZQUIERDA*/
 
 }
 
@@ -158,8 +154,7 @@ ul {
     height: 16vh;
     margin-left: 23%;
     padding: 1%;
-    margin-bottom: 5%;
-
+    
 }
 
 .tituloConocenos__texto--pregunta{
@@ -281,26 +276,17 @@ p{
 
 /*codigos comunes a todas las secciones*/ 
 
-.goBack{
-    float: right;
-    font-family: 'Darker Grotesque', sans-serif;
-    color: white;
-    margin-bottom: 400px;
-}
-.goBack__arrow{
-    width: 100%;
-    height: 6vh;
-}
 .piedePagina{
-    margin-left: 45%;
+    text-align: center;
 }
 .buscanosEn{
     font-family: 'Darker Grotesque', sans-serif;
     color: #BFA995;
     font-size: 20px;
+    align-items: center;
 }
 .footer{
-    margin-top: 120px;
+    margin-top: 40px;
     text-align: center;
     color: #F2F2F0;
     background-color: #D9CDBF;
@@ -316,6 +302,10 @@ p{
 .fondoContacto{
     background-size: 100%;
 }
+
+.container-fluid3{
+    background-color: rgba(241, 241, 241, 0.5);
+}
 .contacto__bloque{
     font-size: 20px;
     font-style: italic;
@@ -326,6 +316,7 @@ p{
     text-align: center;
     width: fit-content;
     color: #403F3C;
+    margin-left: 15%;
 }
 .contacto__titulo{
     font-family: 'Bold Grotesque', sans-serif;
@@ -365,7 +356,7 @@ p{
     height: 60vh;
 }
 .imagenProducto__fotoman{
-    width: 110%;
+    width: 100%;
     height: 60vh;
 }
 .imagenProducto div p img:hover{
