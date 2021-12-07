@@ -14,7 +14,7 @@
     }
 }
 /*mobile*/
-@media only screen and (max-width: 375px) and (min-width: 812px){
+@media only screen and (max-width: 320px) and (min-width: 375px){
     body{
         background-color: orange;
         background-image: none;
@@ -286,7 +286,7 @@ p{
     align-items: center;
 }
 .footer{
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
     color: #F2F2F0;
     background-color: #D9CDBF;
