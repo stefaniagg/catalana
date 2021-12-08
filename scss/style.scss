@@ -1,25 +1,24 @@
 
-/*escritorio*/
-@media only screen and (min-width: 768px) and (max-width: 1000px){
+/*media queries*/
+
+@media only screen and (min-width: 768px){
     body{
         background-color: black;
-        background-image: none;
     }
 }
-/*ipad*/
-@media only screen and (max-width: 767px) and (min-width: 320px){
+@media only screen and (max-width: 767px) and (min-width: 321px){
     body{
         background-color: white;
         background-image: none;
     }
 }
-/*mobile*/
-@media only screen and (max-width: 320px) and (min-width: 375px){
+@media only screen and (max-width: 320px){
     body{
         background-color: orange;
         background-image: none;
     }
 }
+
 
 
 
@@ -153,7 +152,7 @@ ul {
     width: 50%;
     height: 16vh;
     margin-left: 23%;
-    padding: 1%;
+    padding: 1;
     
 }
 
@@ -166,7 +165,7 @@ ul {
     font-style: italic;
     width: fit-content;
     margin-left: 10%;
-    margin-right: 5%;
+    margin-right: 3%;
     padding: 1%;
 }
 
@@ -193,7 +192,6 @@ ul {
     height: 8vh;
     margin-left: 23%;
     padding: 1%;
-
 }
 
 .tituloConocenos__texto--subtexto{
@@ -208,8 +206,6 @@ ul {
     margin-left: 23%;
 
 }
-
-
 .tituloConocenos__pie{
     color: #403F3C;
     font-size: 80px;
