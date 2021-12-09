@@ -131,12 +131,14 @@ ul {
 }
 .tituloConocenos{
     color: #403F3C;
-    line-height: 20px;
     font-size: 25px;
     width: fit-content;
     font-style: italic;
     font-family: 'Darker Grotesque', sans-serif;
     padding: 1%;
+    letter-spacing: 3px;
+    line-height: 18px;
+    text-align: left;
 }
 
 /*HASTA AQUI VA EL MENU DE conocenos*/
@@ -229,7 +231,7 @@ p{
 }
 .contacto__bloque{
     font-style: italic;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     line-height: 18px;
     padding: 1%;
     text-align: left;
