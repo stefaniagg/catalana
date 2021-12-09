@@ -104,80 +104,12 @@ ul {
 
 .tituloConocenos {
   color: #403F3C;
-  letter-spacing: 5px;
-  line-height: 50px;
-  font-size: 40px;
-  text-align: center;
+  line-height: 20px;
+  font-size: 25px;
   width: fit-content;
-  margin-left: 38%;
-  padding: 1%;
   font-style: italic;
-  font-style: bold;
-  font-family: 'Darker Grotesque', sans-serif; }
-
-.tituloConocenos__texto {
-  color: #403F3C;
-  letter-spacing: 5px;
-  font-size: 20px;
   font-family: 'Darker Grotesque', sans-serif;
-  text-align: center;
-  width: 50%;
-  height: 16vh;
-  margin-left: 23%;
-  padding: 1; }
-
-.tituloConocenos__texto--pregunta {
-  color: #403F3C;
-  letter-spacing: 5px;
-  font-size: 30px;
-  font-family: 'Darker Grotesque', sans-serif;
-  text-align: center;
-  font-style: italic;
-  width: fit-content;
-  margin-left: 10%;
-  margin-right: 3%;
   padding: 1%; }
-
-.tituloConocenos__texto--respuesta {
-  color: #403F3C;
-  letter-spacing: 5px;
-  font-size: 20px;
-  font-family: 'Darker Grotesque', sans-serif;
-  text-align: center;
-  width: 50%;
-  height: 8vh;
-  margin-left: 23%;
-  padding: 1%; }
-
-.tituloConocenos__texto--texto {
-  color: #403F3C;
-  letter-spacing: 5px;
-  font-size: 20px;
-  font-family: 'Darker Grotesque', sans-serif;
-  text-align: center;
-  width: 50%;
-  height: 8vh;
-  margin-left: 23%;
-  padding: 1%; }
-
-.tituloConocenos__texto--subtexto {
-  color: #403F3C;
-  letter-spacing: 5px;
-  font-size: 20px;
-  font-family: 'Darker Grotesque', sans-serif;
-  text-align: center;
-  width: 50%;
-  height: 8vh;
-  padding: 1%;
-  margin-left: 23%; }
-
-.tituloConocenos__pie {
-  color: #403F3C;
-  font-size: 80px;
-  letter-spacing: 4px;
-  font-family: 'Darker Grotesque', sans-serif;
-  text-align: center;
-  margin-top: 10%; }
 
 /*HASTA AQUI VA EL MENU DE conocenos*/
 /*desde AQUI VA EL MENU DE NAVEGACION*/
@@ -252,16 +184,13 @@ p {
   background-color: rgba(241, 241, 241, 0.5); }
 
 .contacto__bloque {
-  font-size: 20px;
   font-style: italic;
-  font-family: 'Bold Grotesque', sans-serif;
   letter-spacing: 3px;
   line-height: 18px;
   padding: 1%;
-  text-align: center;
+  text-align: left;
   width: fit-content;
-  color: #403F3C;
-  margin-left: 15%; }
+  color: #403F3C; }
 
 .contacto__titulo {
   font-family: 'Bold Grotesque', sans-serif;
@@ -270,14 +199,17 @@ p {
 
 .contacto__sentence {
   color: #403F3C;
-  font-family: 'Bold Grotesque', sans-serif;
-  font-size: 85%; }
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 20px; }
 
 .enviar, .cancelar {
   color: #403F3C;
   background-color: transparent;
-  font-family: 'Bold Grotesque', sans-serif;
-  font-size: 18px; }
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 35px;
+  border-style: solid; }
 
 /*hasta AQUI VA EL MENU DE contacto*/
 /*desde AQUI VA EL MENU DE productos*/
