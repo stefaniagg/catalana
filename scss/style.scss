@@ -3,18 +3,18 @@
 
 @media only screen and (min-width: 768px){
     body{
-        background-color: black;
+        background-color: #F2F2F0;
     }
 }
 @media only screen and (max-width: 767px) and (min-width: 321px){
     body{
-        background-color: white;
+        background-color: #F2F2F0;
         background-image: none;
     }
 }
 @media only screen and (max-width: 320px){
     body{
-        background-color: orange;
+        background-color: #F2F2F0;
         background-image: none;
     }
 }
@@ -52,7 +52,7 @@
     font-family: 'Darker Grotesque', sans-serif;
     font-weight: bold;
 }
-.encabezado__titulo--subtitulo1{
+.encabezado__epigrafe{
     color: #BFA995;
     font-family: 'Darker Grotesque', sans-serif;
     text-align: center;
@@ -60,10 +60,8 @@
     font-size: 20px;
 }
 .navegacion{
-    margin-left: 31%;
-    width:70%; /*lE DOY EL TAMAÑO DE LA MITAD PARA QUE EL MARGIN SEA PAREJO DE AMBOS LADOS Y QUEDE CENTRADO*/
     font-family:'Darker Grotesque', sans-serif;
-    text-align: center;
+    margin-left: 31%;
 }
 
 ul {
@@ -71,8 +69,8 @@ ul {
 }
 
 .navegacion__titulos > li {
-    float: left; /*POSICIONO LISTA A LA IZQUIERDA*/
-
+    float: left;
+    align-items: center;
 }
 
 .navegacion__titulos li a {
@@ -84,7 +82,7 @@ ul {
 
 .navegacion__titulos li a:hover {
     transform: skewx(10deg);
-    
+    color: #403F3C;
 }
 
 .navegacion__titulos li ul {
@@ -102,7 +100,6 @@ ul {
     margin-top: 2%;
 
 }
-
 
 /*HASTA AQUI VA EL index*/
 
@@ -169,17 +166,13 @@ p{
 
 /*desde AQUI VA EL MENU DE enviosypagos*/
 
-.bloque{
-    display: grid;
-    list-style-type: none;
-    grid-template-areas: 'hoverPromos bloque__section';
-    justify-content: space-evenly;
-    align-items: stretch;
-    font-size: 20px;
+.bloque__section{
+    margin-left: 1%;
 }
-.bloque__section h1:hover {
-    transform: skewx(30deg);
 
+.bloque__section p:hover {
+    transform: skewx(15deg);
+    color: #BFA995;
 }
 
 .bloque__section--titulo{
