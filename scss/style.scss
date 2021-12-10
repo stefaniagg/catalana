@@ -61,23 +61,24 @@
 }
 .navegacion{
     font-family:'Darker Grotesque', sans-serif;
-    margin-left: 31%;
 }
 
 ul {
     list-style:none;
 }
 
+.navegacion__titulos{
+    margin-left: 31%;
+}
+
 .navegacion__titulos > li {
     float: left;
-    align-items: center;
 }
 
 .navegacion__titulos li a {
     color:#BFA995;
     text-decoration:none;
     padding: 10px;
-    display:block; 
 }
 
 .navegacion__titulos li a:hover {
@@ -126,9 +127,19 @@ ul {
     background-color: rgba(241, 241, 241, 0.5);
     width: fit-content;
 }
+.tituloConocenos1{
+    color: #403F3C;
+    font-size: 20px;
+    width: fit-content;
+    font-style: italic;
+    font-family: 'Bold Grotesque', sans-serif;
+    padding: 1%;
+    letter-spacing: 3px;
+    line-height: 18px;
+}
 .tituloConocenos{
     color: #403F3C;
-    font-size: 25px;
+    font-size: 20px;
     width: fit-content;
     font-style: italic;
     font-family: 'Darker Grotesque', sans-serif;
