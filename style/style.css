@@ -82,9 +82,6 @@ ul {
 
 /*HASTA AQUI VA EL index*/
 /*desde AQUI VA EL MENU DE conocenos*/
-.navbar-toggler {
-  margin-left: 1875%; }
-
 .offcanvas {
   background-color: rgba(241, 241, 241, 0.75);
   color: #403F3C;
