@@ -10,6 +10,12 @@
     body{
         background-color: #F2F2F0;
         background-image: none;
+        .navegacion__titulos > li {
+            float: none;
+        }
+        .navegacion__titulos li ul li{
+            display:none;
+        }
     }
 }
 @media only screen and (max-width: 320px){
