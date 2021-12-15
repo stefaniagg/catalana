@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*media queries*/
 @media only screen and (min-width: 768px) {
   body {
@@ -17,7 +18,7 @@
     background-color: #F2F2F0;
     background-image: none; } }
 
-/*desde AQUI VA EL index*/
+/*INDEX*/
 .index {
   background-color: #F2F2F0; }
 
@@ -84,8 +85,42 @@ ul {
   height: 20%;
   margin-top: 2%; }
 
-/*HASTA AQUI VA EL index*/
-/*desde AQUI VA EL MENU DE conocenos*/
+.section1 {
+  align-items: center;
+  text-align: center; }
+
+.tabla {
+  color: #4C4E59;
+  font-family: 'Darker Grotesque', sans-serif;
+  background-color: transparent;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-right: 20%; }
+
+.tabla__columnas {
+  font-size: 20px;
+  font-weight: bold; }
+
+.tabla__filas {
+  font-style: italic;
+  text-align: center; }
+
+.bloque__section p:hover {
+  transform: skewx(15deg);
+  color: #BFA995; }
+
+.bloque__section--titulo {
+  color: #403F3C;
+  font-family: 'Darker Grotesque', sans-serif;
+  list-style-type: none;
+  font-size: 20px;
+  align-items: center; }
+
+.bloque__section--subtitulo {
+  color: #403F3C;
+  font-family: 'Darker Grotesque', sans-serif; }
+
+/*SECCIÓN: CONOCENOS*/
 .offcanvas {
   background-color: rgba(241, 241, 241, 0.75);
   color: #403F3C;
@@ -121,47 +156,7 @@ ul {
   line-height: 18px;
   text-align: left; }
 
-/*HASTA AQUI VA EL MENU DE conocenos*/
-/*desde AQUI VA EL MENU DE NAVEGACION*/
-p {
-  color: white;
-  font-family: 'Darker Grotesque', sans-serif; }
-
-.tabla {
-  color: #4C4E59;
-  font-family: 'Darker Grotesque', sans-serif;
-  background-color: transparent;
-  font-weight: bold; }
-
-.tabla__columnas {
-  font-size: 20px;
-  font-weight: bold; }
-
-.tabla__filas {
-  font-style: italic;
-  text-align: center; }
-
-/*desde AQUI VA EL MENU DE enviosypagos*/
-.bloque__section {
-  margin-left: 1%; }
-
-.bloque__section p:hover {
-  transform: skewx(15deg);
-  color: #BFA995; }
-
-.bloque__section--titulo {
-  color: #403F3C;
-  font-family: 'Darker Grotesque', sans-serif;
-  width: fit-content;
-  list-style-type: none;
-  font-size: 20px; }
-
-.bloque__section--subtitulo {
-  color: #403F3C;
-  font-family: 'Darker Grotesque', sans-serif; }
-
-/*hasta AQUI VA EL MENU DE promosypagos*/
-/*codigos comunes a todas las secciones*/
+/*códigos comunes a todas las secciones*/
 .piedePagina {
   text-align: center; }
 
@@ -175,14 +170,16 @@ p {
   margin-top: 30px;
   text-align: center;
   color: #F2F2F0;
-  background-color: #D9CDBF; }
+  background-color: #D9CDBF;
+  font-family: 'Darker Grotesque', sans-serif; }
 
 .footer__subfooter {
   text-align: center;
   color: #D9CDBF;
-  background-color: transparent; }
+  background-color: transparent;
+  font-family: 'Darker Grotesque', sans-serif; }
 
-/*desde AQUI VA EL MENU DE contacto*/
+/*SECCIÓN: CONTACTO*/
 .fondoContacto {
   background-size: 100%; }
 
@@ -217,8 +214,7 @@ p {
   border-radius: 35px;
   border-style: solid; }
 
-/*hasta AQUI VA EL MENU DE contacto*/
-/*desde AQUI VA EL MENU DE productos*/
+/*SECCIÓN: PRODUCTOS*/
 .fondoProductos {
   background-color: #F2F2F0; }
 
@@ -275,5 +271,3 @@ p {
   font-size: 20px;
   font-style: italic;
   letter-spacing: 4px; }
-
-/*hasta AQUI VA EL MENU DE productos*/
