@@ -16,6 +16,9 @@
         .navegacion__titulos li ul li{
             display:none;
         }
+        .tabla{
+            margin-left: 1%;
+        }
     }
 }
 @media only screen and (max-width: 320px){
@@ -107,6 +110,7 @@ ul {
     font-family: 'Darker Grotesque', sans-serif;
     background-color: transparent;
     font-weight: bold;
+    margin-left: 28%;
 }
 .tabla__columnas{
     font-size: 20px;
@@ -124,10 +128,14 @@ ul {
     font-family: 'Darker Grotesque', sans-serif;
     list-style-type: none;
     font-size: 20px;
+    align-items: center;
+    text-align: center;
 }
 .bloque__section--subtitulo{
     color: #403F3C;
     font-family: 'Darker Grotesque', sans-serif;
+    align-items: center;
+    text-align: center;
 }
 
 /*SECCIÓN: CONOCENOS*/

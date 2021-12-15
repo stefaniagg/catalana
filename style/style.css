@@ -11,7 +11,9 @@
     body .navegacion__titulos > li {
       float: none; }
     body .navegacion__titulos li ul li {
-      display: none; } }
+      display: none; }
+    body .tabla {
+      margin-left: 1%; } }
 
 @media only screen and (max-width: 320px) {
   body {
@@ -89,7 +91,8 @@ ul {
   color: #4C4E59;
   font-family: 'Darker Grotesque', sans-serif;
   background-color: transparent;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-left: 28%; }
 
 .tabla__columnas {
   font-size: 20px;
@@ -106,11 +109,15 @@ ul {
   color: #403F3C;
   font-family: 'Darker Grotesque', sans-serif;
   list-style-type: none;
-  font-size: 20px; }
+  font-size: 20px;
+  align-items: center;
+  text-align: center; }
 
 .bloque__section--subtitulo {
   color: #403F3C;
-  font-family: 'Darker Grotesque', sans-serif; }
+  font-family: 'Darker Grotesque', sans-serif;
+  align-items: center;
+  text-align: center; }
 
 /*SECCIÓN: CONOCENOS*/
 .offcanvas {
