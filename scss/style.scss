@@ -102,18 +102,11 @@ ul {
     height: 20%;
     margin-top: 2%;
 }
-
-.section1{
-    align-items: center;
-    text-align: center;
-}
 .tabla{
     color: #4C4E59;
     font-family: 'Darker Grotesque', sans-serif;
     background-color: transparent;
     font-weight: bold;
-    margin-left: 28%;
-    margin-right: 20%;
 }
 .tabla__columnas{
     font-size: 20px;
@@ -121,7 +114,6 @@ ul {
 }
 .tabla__filas{
     font-style: italic;
-    text-align: center;
 }
 .bloque__section p:hover {
     transform: skewx(15deg);
@@ -132,7 +124,6 @@ ul {
     font-family: 'Darker Grotesque', sans-serif;
     list-style-type: none;
     font-size: 20px;
-    align-items: center;
 }
 .bloque__section--subtitulo{
     color: #403F3C;

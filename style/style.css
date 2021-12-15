@@ -85,25 +85,18 @@ ul {
   height: 20%;
   margin-top: 2%; }
 
-.section1 {
-  align-items: center;
-  text-align: center; }
-
 .tabla {
   color: #4C4E59;
   font-family: 'Darker Grotesque', sans-serif;
   background-color: transparent;
-  font-weight: bold;
-  margin-left: 28%;
-  margin-right: 20%; }
+  font-weight: bold; }
 
 .tabla__columnas {
   font-size: 20px;
   font-weight: bold; }
 
 .tabla__filas {
-  font-style: italic;
-  text-align: center; }
+  font-style: italic; }
 
 .bloque__section p:hover {
   transform: skewx(15deg);
@@ -113,8 +106,7 @@ ul {
   color: #403F3C;
   font-family: 'Darker Grotesque', sans-serif;
   list-style-type: none;
-  font-size: 20px;
-  align-items: center; }
+  font-size: 20px; }
 
 .bloque__section--subtitulo {
   color: #403F3C;
