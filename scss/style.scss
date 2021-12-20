@@ -3,12 +3,13 @@
 
 @media only screen and (min-width: 768px){
     body{
-        background-color: #F2F2F0;
         overflow-x: hidden;
+        background-color: #F2F2F0;
     }
 }
 @media only screen and (max-width: 767px) and (min-width: 321px){
     body{
+        overflow-x: hidden;
         background-color: #F2F2F0;
         background-image: none;
         .navegacion__titulos > li {
@@ -20,7 +21,6 @@
         .tabla{
             margin-left: 1%;
         }
-        overflow-x: hidden;
     }
 }
 @media only screen and (max-width: 320px){
@@ -35,7 +35,7 @@
 
 .index{
     background-color: #F2F2F0;
-
+    overflow-x: hidden;
 }
 .encabezado{
     color: #F2F2F0;

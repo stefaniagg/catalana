@@ -2,13 +2,14 @@
 /*media queries*/
 @media only screen and (min-width: 768px) {
   body {
+    overflow-x: hidden;
     background-color: #F2F2F0; } }
 
 @media only screen and (max-width: 767px) and (min-width: 321px) {
   body {
+    overflow-x: hidden;
     background-color: #F2F2F0;
-    background-image: none;
-    overflow-x: hidden; }
+    background-image: none; }
     body .navegacion__titulos > li {
       float: none; }
     body .navegacion__titulos li ul li {
@@ -24,7 +25,8 @@
 
 /*INDEX*/
 .index {
-  background-color: #F2F2F0; }
+  background-color: #F2F2F0;
+  overflow-x: hidden; }
 
 .encabezado {
   color: #F2F2F0;
