@@ -19,21 +19,14 @@
         .tabla{
             margin-left: 1%;
         }
-        .enviar, .cancelar{
-            color: #403F3C;
-            background-color: transparent;
-            font-family: 'Darker Grotesque', sans-serif;
-            font-size: 20px;
-            text-decoration: none;
-            border-radius: 35px;
-            border-style: solid;
-        }
+        overflow-x: hidden;
     }
 }
 @media only screen and (max-width: 320px){
     body{
         background-color: #F2F2F0;
         background-image: none;
+        overflow-x: hidden;
     }
 }
 
