@@ -2,12 +2,10 @@
 /*media queries*/
 @media only screen and (min-width: 768px) {
   body {
-    overflow-x: hidden;
     background-color: #F2F2F0; } }
 
 @media only screen and (max-width: 767px) and (min-width: 321px) {
   body {
-    overflow-x: hidden;
     background-color: #F2F2F0;
     background-image: none; }
     body .navegacion__titulos > li {
@@ -20,17 +18,15 @@
 @media only screen and (max-width: 320px) {
   body {
     background-color: #F2F2F0;
-    background-image: none;
-    overflow-x: hidden; } }
+    background-image: none; } }
 
 /*INDEX*/
 .index {
-  background-color: #F2F2F0;
-  overflow-x: hidden; }
+  background-color: #F2F2F0; }
 
 .encabezado {
   color: #F2F2F0;
-  background-color: #D9CDBF;
+  background-color: #403F3C;
   text-align: center;
   font-style: italic;
   font-family: 'Darker Grotesque', sans-serif; }
@@ -43,7 +39,7 @@
   text-align: center; }
 
 .encabezado__titulo--subtitulo {
-  color: #4C4E59;
+  color: #BFA995;
   font-style: italic;
   text-align: center;
   font-size: 20px;
@@ -71,13 +67,13 @@ ul {
   float: left; }
 
 .navegacion__titulos li a {
-  color: #BFA995;
+  color: #403F3C;
   text-decoration: none;
   padding: 10px; }
 
 .navegacion__titulos li a:hover {
   transform: skewx(10deg);
-  color: #403F3C; }
+  color: #BFA995; }
 
 .navegacion__titulos li ul {
   display: none;
@@ -86,28 +82,12 @@ ul {
 .navegacion__titulos li:hover > ul {
   display: block; }
 
+.carousel {
+  margin-top: 8%; }
+
 .carousel-item {
   width: 100%;
-  height: 20%;
-  margin-top: 2%; }
-
-.tabla {
-  color: #4C4E59;
-  font-family: 'Darker Grotesque', sans-serif;
-  background-color: transparent;
-  font-weight: bold;
-  margin-left: 27%; }
-
-.tabla__columnas {
-  font-size: 20px;
-  font-weight: bold; }
-
-.tabla__filas {
-  font-style: italic; }
-
-.bloque__section p:hover {
-  transform: skewx(15deg);
-  color: #BFA995; }
+  height: 20%; }
 
 .bloque__section--titulo {
   color: #403F3C;
@@ -115,79 +95,109 @@ ul {
   list-style-type: none;
   font-size: 20px;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  padding-top: 4%; }
 
 .bloque__section--subtitulo {
   color: #403F3C;
   font-family: 'Darker Grotesque', sans-serif;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  font-size: 20px; }
+
+.col {
+  color: #403F3C;
+  font-family: 'Darker Grotesque', sans-serif;
+  align-items: center;
+  text-align: center;
+  font-size: 20px; }
+
+.row {
+  color: #403F3C;
+  font-family: 'Darker Grotesque', sans-serif;
+  align-items: center;
+  text-align: center;
+  font-size: 20px; }
 
 /*SECCIÓN: CONOCENOS*/
 .offcanvas {
-  background-color: rgba(241, 241, 241, 0.75);
+  background-color: #f1f1f1;
   color: #403F3C;
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 20px; }
 
-.backgroundConocenos {
-  background-size: 100%;
-  background-position: center; }
+.encabezado__titulo2 {
+  text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
+  color: #403F3C;
+  font-size: 80px;
+  letter-spacing: 4px; }
+
+.encabezado__titulo--subtitulo2 {
+  text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
+  color: #BFA995;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 4px; }
 
 .container-fluid2 {
-  background-color: rgba(241, 241, 241, 0.5);
-  width: fit-content; }
+  margin-top: 5%;
+  align-items: center;
+  text-align: center; }
 
 .tituloConocenos1 {
   color: #403F3C;
-  font-size: 20px;
-  width: fit-content;
+  font-size: 18px;
   font-style: italic;
   font-family: 'Bold Grotesque', sans-serif;
   padding: 1%;
   letter-spacing: 3px;
-  line-height: 18px; }
+  line-height: 20px;
+  align-items: center;
+  text-align: center; }
 
 .tituloConocenos {
   color: #403F3C;
   font-size: 20px;
-  width: fit-content;
   font-style: italic;
   font-family: 'Darker Grotesque', sans-serif;
   padding: 1%;
   letter-spacing: 3px;
   line-height: 18px;
-  text-align: left; }
+  text-align: left;
+  align-items: center;
+  text-align: center; }
 
 /*códigos comunes a todas las secciones*/
 .piedePagina {
   text-align: center; }
 
 .buscanosEn {
-  font-family: 'Darker Grotesque', sans-serif;
-  color: #BFA995;
+  font-family: 'Bold Grotesque', sans-serif;
+  color: #403F3C;
   font-size: 20px;
-  align-items: center; }
+  align-items: center;
+  padding-top: 4%; }
 
 .footer {
-  margin-top: 30px;
+  margin-top: 70px;
   text-align: center;
   color: #F2F2F0;
-  background-color: #D9CDBF;
+  background-color: #403F3C;
   font-family: 'Darker Grotesque', sans-serif; }
 
 .footer__subfooter {
   text-align: center;
-  color: #D9CDBF;
+  color: #403F3C;
   background-color: transparent;
   font-family: 'Darker Grotesque', sans-serif; }
 
 /*SECCIÓN: CONTACTO*/
-.fondoContacto {
-  background-size: 100%; }
-
 .container-fluid3 {
-  background-color: rgba(241, 241, 241, 0.5); }
+  margin-top: 5%;
+  align-items: center;
+  text-align: center; }
 
 .contacto__bloque {
   font-style: italic;
@@ -195,27 +205,43 @@ ul {
   line-height: 18px;
   padding: 1%;
   text-align: left;
-  width: fit-content;
-  color: #403F3C; }
+  color: #403F3C;
+  align-items: center;
+  text-align: center; }
 
 .contacto__titulo {
   font-family: 'Bold Grotesque', sans-serif;
   font-size: 18px;
-  color: #403F3C; }
+  color: #403F3C;
+  align-items: center;
+  text-align: center; }
 
 .contacto__sentence {
   color: #403F3C;
-  font-family: 'Darker Grotesque', sans-serif;
-  font-size: 20px; }
+  font-family: 'Bold Grotesque', sans-serif;
+  font-size: 18px;
+  align-items: center;
+  text-align: center; }
 
 .enviar, .cancelar {
   color: #403F3C;
   background-color: transparent;
-  font-family: 'Darker Grotesque', sans-serif;
-  font-size: 20px;
+  font-family: 'Bold Grotesque', sans-serif;
+  font-size: 18px;
   text-decoration: none;
   border-radius: 35px;
-  border-style: solid; }
+  border-style: solid;
+  align-items: center;
+  text-align: center; }
+
+.photoConocenos {
+  width: 50%;
+  height: 60vh; }
+
+.photoContacto {
+  width: 50%;
+  height: 60vh;
+  padding-top: 4%; }
 
 /*SECCIÓN: PRODUCTOS*/
 .fondoProductos {
@@ -227,7 +253,8 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  align-content: center; }
+  align-content: center;
+  margin-top: 5%; }
 
 .imagenProducto__foto {
   width: 100%;
@@ -261,18 +288,3 @@ ul {
   font-size: 20px;
   border-radius: 25px;
   border-style: solid; }
-
-.encabezado__titulo2 {
-  text-align: center;
-  font-family: 'Darker Grotesque', sans-serif;
-  color: #BFA995;
-  font-size: 80px;
-  letter-spacing: 4px; }
-
-.encabezado__titulo--subtitulo2 {
-  text-align: center;
-  font-family: 'Darker Grotesque', sans-serif;
-  color: #BFA995;
-  font-size: 20px;
-  font-style: italic;
-  letter-spacing: 4px; }
