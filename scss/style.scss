@@ -9,22 +9,21 @@
 @media only screen and (max-width: 767px) and (min-width: 321px){
     body{
         background-color: #F2F2F0;
-        background-image: none;
         .navegacion__titulos > li {
             float: none;
         }
         .navegacion__titulos li ul li{
             display:none;
         }
-        .tabla{
-            margin-left: 1%;
+        .photoConocenos, .photoContacto{
+            width: 80%;
+            height: 30vh;
         }
     }
 }
 @media only screen and (max-width: 320px){
     body{
         background-color: #F2F2F0;
-        background-image: none;
     }
 }
 
@@ -197,7 +196,7 @@ ul {
 }
 
 .buscanosEn{
-    font-family: 'Bold Grotesque', sans-serif;
+    font-family: 'Darker Grotesque', sans-serif;
     color: #403F3C;
     font-size: 20px;
     align-items: center;
@@ -262,11 +261,13 @@ ul {
 .photoConocenos{
     width: 50%;
     height: 60vh;
+    align-items: center;
 }
 .photoContacto{
-    width: 50%;
+    width: 40%;
     height: 60vh;
     padding-top: 4%;
+    align-items: center;
 }
 
 /*SECCIÓN: PRODUCTOS*/
