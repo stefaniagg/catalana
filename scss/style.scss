@@ -19,6 +19,15 @@
         .tabla{
             margin-left: 1%;
         }
+        .enviar, .cancelar{
+            color: #403F3C;
+            background-color: transparent;
+            font-family: 'Darker Grotesque', sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 35px;
+            border-style: solid;
+        }
     }
 }
 @media only screen and (max-width: 320px){
@@ -110,7 +119,7 @@ ul {
     font-family: 'Darker Grotesque', sans-serif;
     background-color: transparent;
     font-weight: bold;
-    margin-left: 28%;
+    margin-left: 27%;
 }
 .tabla__columnas{
     font-size: 20px;
@@ -267,8 +276,7 @@ ul {
     height: 60vh;
 }
 .imagenProducto div p img:hover{
-    transform: rotate(8deg); 
-
+    transform: rotate(8deg);
 }
 .imagenProducto__foto--cuello{
     list-style-type: none;
@@ -289,6 +297,8 @@ ul {
     font-family: 'Darker Grotesque', sans-serif;
     color: #403F3C;
     font-size: 20px;
+    border-radius: 25px;
+    border-style: solid;
 }
 .encabezado__titulo2{
     text-align: center;
